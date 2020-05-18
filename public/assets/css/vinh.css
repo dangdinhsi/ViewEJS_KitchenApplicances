@@ -1,0 +1,500 @@
+.section{
+    width: 100%;
+    float: left;
+}
+.section.section1{
+    margin-top: 20px;
+}
+.section.section1 .container .megamenu .sidebar-megamenu{
+    width: 25%;
+    float: left;
+    padding-right: 5px;
+}
+.section.section1 .container .megamenu .sidebar-megamenu a{
+    text-decoration: none;
+}
+.section.section1 .container .megamenu .sidebar-megamenu a p{
+    padding: 14px 16px;
+    color: white;
+    background-color:#fd6500;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.section.section1 .container .megamenu .sidebar-megamenu a p i{
+    padding-right: 10px;
+}
+.section.section1 .container .megamenu .main-megamenu{
+    width: 75%;
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.section.section1 .container .megamenu .main-megamenu a{
+    text-decoration: none;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 40px;
+    color: black;
+
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown{
+    float: left;
+    overflow: hidden;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.section.section1 .container .main-megamenu a:hover {
+    background-color: #fd6500;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown:hover .dropbtn{
+    background-color: #fd6500;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 10;
+    margin-top: 47px;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown .dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown .dropdown-content a:hover{
+    background-color: #fd6500;
+}
+.section.section1 .container .megamenu .main-megamenu .dropdown:hover .dropdown-content{
+    display: block;
+}
+.section.section2 {
+    margin-top: 10px;
+}
+.section.section2 .categori{
+    width: 25%;
+    float: left;
+    padding-right: 5px;
+}
+.section.section2 .slide{
+    width: 75%;
+    float: left;
+    padding-left: 5px;
+
+}
+.section.section2 .container .categori ul{
+    list-style: none;
+    border: 1px solid lightgray;
+}
+.section.section2 .container .categori ul li{
+    height: 46px;
+}
+.section.section2 .container .categori ul li a{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-left: 5%;
+    border-bottom: 1px solid lightgray ;
+    color: black;
+    text-decoration: none;
+}
+.section.section2 .container .categori ul li a:hover{
+    background-color:#ebebeb;
+    border-left: 2px solid #fd6500;
+}
+.section.section2 .container .categori ul li a .iconmega{
+    padding: 8px 5px 0 15px;
+
+}
+.section.section2 .container .categori ul li a .title{
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.section.section2 .container .categori ul li a .title span{
+    margin-top: 5px;
+}
+.section.section2 .container .categori ul li a .iconmega.cup img{
+    margin-top: 5px;
+}
+.section.section2 .container .categori ul li a .iconmega.gift img{
+    margin-top: 3px;
+}
+.section.section2 .container .categori ul li .morecate{
+    border-bottom: none;
+}
+.section.section2 .container .categori ul li .morecate span i{
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 100%;
+    max-height:100%;
+}
+.section.section3{
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.section.section3 .container .menupolicy{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.section.section3 .container .policy{
+    width: 25%;
+    float: left;
+    height: 75px;
+    padding: 0 10px;
+}
+.section.section3 .container .policy a{
+    text-decoration: none;
+}
+.section.section3 .container .policy .detailpolicy {
+    display: flex;
+    height: 75px;
+    padding: 10px;
+    border: 1px solid #ebebeb ;
+    border-radius: 40px;
+}
+.section.section3 .container .policy .detailpolicy:hover{
+    border: 1px solid #fd6500;
+}
+.section.section3 .container .policy .imgpolicy{
+    width: 21%;
+    height: 55px;
+    float: left;
+    background-color: #fd6500;
+    position: relative;
+    border-radius:100%;
+
+}
+.section.section3 .container .policy .imgpolicy img{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+.section.section3 .container .policy .titlepolicy{
+    width: 75%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #666666;
+    line-height: 1.5;
+}
+.section.section4 {
+    margin-top: 50px;
+}
+
+.section.section4 .container .hotcategori div  div a{
+    text-decoration: none;
+}
+.section.section4 .container .hotcategori div{
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.section.section4 .container .hotcategori div div{
+    border: 1px solid #ebebeb ;
+    width: 100%;
+    border-radius: 20px;
+}
+.section.section4 .container .hotcategori div div a{
+    color: white;
+    font-size: 20px;
+}
+.section.section4 .container .hotcategori div .Refrigeration{
+    background: linear-gradient(to right, #0b8f81, #0fd0bc);
+}
+.section.section4 .container .hotcategori div .Refrigeration:hover{
+    background: linear-gradient(to right, #0fd0bc, #0b8f81);
+}
+.section.section4 .container .hotcategori div .Appliances{
+    background: linear-gradient(to right, #7b5e8f, #cc79d0);
+}
+.section.section4 .container .hotcategori div .Appliances:hover{
+    background: linear-gradient(to right, #cc79d0, #7b5e8f);
+}
+.section.section4 .container .hotcategori div .Cookwares{
+    background: linear-gradient(to right, #8f3035, #d0157a);
+}
+.section.section4 .container .hotcategori div .Cookwares:hover{
+    background: linear-gradient(to right, #d0157a, #8f3035);
+}
+.section.section4 .container .hotcategori div .Foodstorage{
+    background: linear-gradient(to right, #078f0d, #0ed0c9);
+}
+.section.section4 .container .hotcategori div .Foodstorage:hover{
+    background: linear-gradient(to right, #0ed0c9, #078f0d);
+}
+.section.section5 .container .deal{
+    width: 116px;
+    display: block;
+    margin: 30px 0 30px 10px;
+}
+.section.section5 .container .deal h2{
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #fd6500;
+    padding: 10px 0;
+}
+.section.section5 .container .owlslide {
+    height: auto;
+    margin-left: 10px;
+    position: relative;
+}
+.section.section5 .container .owlslide .owl-item{
+    border: 1px solid lightgray;
+}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev{
+    font-size: 40px!important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    /*display: none;*/
+
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    margin: 0;
+}
+.owl-carousel .owl-nav button.owl-prev span,.owl-carousel .owl-nav button.owl-next span{
+    padding: 4px 8px;
+}
+.owl-item  div p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.owl-item  a p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.owl-item  a{
+    text-decoration: none;
+}
+.owl-item  div .price{
+    color:#fd6500 ;
+    margin-top: 20px;
+}
+.owl-item  .itemtitle{
+    color: #0f0f0f;
+}
+.owl-item  div .itemtitle:hover{
+    color:#fd6500 ;
+}
+.owl-item  div p{
+    width: 40%;
+    float: left;
+}
+.owl-item  div a{
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.owl-item  div a  i{
+    padding: 10px 10px;
+    color: silver;
+}
+.owl-item  div a  i:hover{
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    background-color: #fd6500;
+    color: white;
+}
+.section.section5 .container .grid__colum-6{
+    padding-left: 7px;
+    padding-right: 24px;
+}
+.section.section6 {
+    margin-top: 50px;
+}
+.section.section6 .container .newproduct{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.section.section6 .newproduct a p{
+    padding-left: 23px;
+}
+.section.section6 .best_seller_right_product-detail{
+    padding-left: 23px;
+}
+.section.section6 .newproduct a img{
+    padding: 10px;
+}
+.section.section6 .newproduct .best_seller_right_product-detail .best_seller_right_product-action{
+    margin-bottom: 10px;
+}
+.section.section6 .newproduct:hover{
+    box-shadow: 0 0 5px #cccc;
+    cursor: pointer;
+}
+.section.section6 .container .newproducttitle{
+    font-size: 3rem;
+    color: #0f0f0f;
+    width: 20.7rem;
+    padding-bottom: 1rem;
+    margin-left: 12px;
+    border-bottom: 1.5px solid tomato;
+    margin-bottom: 4rem;
+}
+.section.section6 .container .grid__colum-3{
+    margin-bottom: 24px;
+    padding-left: 12px;
+}
+.section.section6 .container .newitem{
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+.section.section6 .container .newitem ul li{
+    padding: 26.8px 0;
+    border-bottom:1px solid lightgray;
+}
+.section.section6 .container .newitem ul .lastest{
+    border-bottom: none;
+}
+.section.section6 .container .newitem a{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.section.section6 .container .newitem ul li:hover{
+    box-shadow: 0 0 1rem #cccc;
+    cursor: pointer;
+}
+.section.section6 .container .newitem a span{
+    font-size: 2.5rem;
+}
+.section.section7{
+    background-color: #f5f5f5;
+}
+.section.section7 .container .grid__colum-6{
+    text-align: center;
+}
+.section.section7 .container .footer-top .app-list {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.section.section7 .container .footer-top{
+    border-bottom: 1px solid lightgray;
+    padding:50px 0;
+}
+.section.section7 .container .footer-top .app-list li{
+    padding: 0 10px;
+    font-size: 2rem;
+}
+.section.section7 .container .footer-top .social {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 14rem;
+}
+.section.section7 .container .footer-top .social li{
+    padding: 0 10px;
+    font-size: 2rem;
+}
+.section.section7 .container .footer-top .social li i:hover{
+    color: tomato;
+}
+.section.section7 .container .footer-top .social .iconsocial a i{
+    font-size: 4.3rem;
+}
+.section.section7 .container .footer-bottom{
+    font-size: 1.6rem;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.section.section7 .container .footer-bottom .footer-contact div ul li i{
+    color: tomato;
+    margin-right: 5px;
+}
+.section.section7 .container .footer-bottom .footer-contact div ul li{
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.section.section7 h2{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.section.section7 .footer-service{
+    text-align: center;
+}
+.section.section7 .footer-service div ul a li{
+    color: #0f0f0f;
+    margin-bottom: 1rem;
+    text-align: left;
+    margin-left: 14rem;
+}
+.section.section7 .footer-service div ul a li:hover{
+    list-style: circle;
+    color: tomato;
+}
+/* end css home page*/
+/*start css contact us*/
+.section.section8 .container h2{
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.section.section8 .container div div form div div label{
+    font-size: 1.6rem;
+}
+.section.section8 .container div div form div div input{
+    width: 100%;
+    height: 42px;
+    margin: 10px 0 20px 0;
+}
+.section.section8 .container div div form label{
+    font-size: 1.6rem;
+}
+.section.section8 .container div div form input{
+    width: 100%;
+    height: 42px;
+    margin: 10px 0 20px 0;
+}
+.section.section8 .container div div form div div textarea{
+    width: 600px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+button{
+    padding:10px 20px;
+    color: white;
+    font-size: 1.6rem;
+    background-color: tomato;
+    margin: 2rem 0;
+}
+#map {
+    width: 100%;
+    height: 38rem;
+    margin-top: 2.5rem;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
